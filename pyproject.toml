@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "async-tests"
+version = "0.1.0"
+description = ""
+authors = ["Nahuel <nahuel.defosse@gmail.com>"]
+readme = "README.md"
+packages = [{include = "async_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.23.0"
+starlette = "^0.20.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
